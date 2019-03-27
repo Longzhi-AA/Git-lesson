@@ -33,9 +33,12 @@ cp -n:不覆盖已存在的文件
 ![alt text](https://github.com/Longzhi-AA/Git-lesson/blob/master/github_Git-lesson/linuxpng/5.png)
 
 8.分析以下问题,并给出解决方案
+
 ```
 Mount is denied because the NTFS volume is already exclusively opened.
 The volume may be already mounted, or another software may use it which could be identified for example by the help of the 'fuser' command.
+
+```
 
 ```
 挂载已经被拒绝执行因为NTFS单元已经被打开并占用或者另外一个程序正在使用这个单元; 可以用'fuser'这个命令查看被谁占用.
