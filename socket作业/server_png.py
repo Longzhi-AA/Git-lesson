@@ -17,4 +17,5 @@ with open(file_name, 'wb') as f:
     f.write(b_file)
     f.close()
     print('上传成功')
+
 ss.close()
