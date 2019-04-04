@@ -3,7 +3,6 @@ import os
 
 sc = socket.socket()
 
-
 address = ('127.0.0.1', 18001)
 sc.connect(address)
 
