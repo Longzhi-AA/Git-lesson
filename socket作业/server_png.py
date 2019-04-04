@@ -18,4 +18,3 @@ with open(file_name, 'wb') as f:
     f.close()
     print('上传成功')
 ss.close()
-
