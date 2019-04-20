@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html表单</title>
+    <style>
+        .form1{
+            width:50%;
+            background: gray;
+            font-size: 16px;
+        }
+        .f2{
+           padding-left: 35%;
+        }
+        .f3{
+            padding-left: 30%;
+        }
+        .f4{
+            padding-left: 40%;
+        }
+    </style>
+</head>
+<body>
+
+<h1>table one</h1><hr>
+
+<table border="1" cellpadding="0" margin-left="500px">
+    <tr>
+        <td>
+            <p>这是一个段落</p>
+            <p>这是另一个段落</p>
+        </td>
+        <td>
+            <p>这是一个表格</p>
+            <table border="1" cellpadding="0">
+                <tr>
+                    <td>a</td>
+                    <td>b</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>d</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>这是个列表</p>
+            <ol>BMW</ol>
+            <ol>BNZ</ol>
+            <ol>AUDI</ol>
+        </td>
+        <td>
+            <h1><strong>over</strong></h1>
+        </td>
+    </tr>
+</table><br><br>
+
+<h1>table two</h1>
+<hr>
+
+<table border="1" cellpadding="0">
+    <tr><td colspan="8" align="center">课程表</td></tr>
+
+    <tr>
+        <td colspan="3">日期/时间</td>
+        <td>Monday</td>
+        <td>Tuesday</td>
+        <td>Wenseday</td>
+        <td>Thursday</td>
+        <td>Friday</td>
+    </tr>
+    <tr>
+        <td rowspan="2">上午</td>
+        <td colspan="2">9:00-10:15</td>
+        <td>c</td>
+        <td>python</td>
+        <td>go</td>
+        <td>java</td>
+        <td>js</td>
+    </tr>
+    <tr>
+        <td colspan="2">10:30-11:45</td>
+        <td>java</td>
+        <td>python</td>
+        <td>go</td>
+        <td>c</td>
+        <td>c</td>
+    </tr>
+    <tr>
+        <td rowspan="2">下午</td>
+        <td colspan="2">14:00-16:0</td>
+        <td>篮球</td>
+        <td>足球</td>
+        <td>羽毛球</td>
+        <td>乒乓球</td>
+        <td>棒球</td>
+    </tr>
+    <tr>
+        <td colspan="2">16:30-18:00</td>
+        <td>足球</td>
+        <td>乒乓球</td>
+        <td>羽毛球</td>
+        <td>篮球</td>
+        <td>足球</td>
+    </tr>
+</table><br><br>
+
+
+<h1>form one</h1>
+<hr>
+<div class="form1">
+    <form>
+        <div class="f2">欢迎您来注册，祝您愉快！<br>
+            <br>账号：<input type="text" name="account">(必填)<br>
+            <br>密码：<input type="password" name="password">(必填)<br>
+            <br>性别：<input type="radio" value="保密" name="sex">保密&nbsp&nbsp<input type="radio" value="男" name="sex">男&nbsp&nbsp<input type="radio" value="女" name="sex">女<br>
+            <br>邮箱：<input type="text" name="email">(必填)<br>
+            <br>手机：<input type="text" name="pn">(必填)<br>
+        </div>
+        <br>
+        <br>
+        <div class="f3">兴趣爱好
+            <hr>
+            <input type="checkbox" value="保密" name="sex">保密&nbsp&nbsp<input type="checkbox" value="保密" name="sex">篮球&nbsp&nbsp<input type="checkbox" value="保密" name="sex">足球&nbsp&nbsp<input type="checkbox" value="保密" name="sex">羽毛球&nbsp&nbsp<input type="checkbox" value="保密" name="sex">乒乓球&nbsp&nbsp<br>
+            <hr>
+        </div>
+        <br>
+        <div class="f4">
+            <input type="submit" name="注册"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="reset" name="取消">
+        </div>
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
