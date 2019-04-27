@@ -1,0 +1,46 @@
+
+ol{
+   border: 1px red solid;
+    height:50px;
+    width: 200px;
+    position: relative;
+}
+
+*{
+    margin:0;
+}
+li{
+
+    font-size: 25px;
+    color: #9c9f82;
+    line-height: 60px;
+    margin-left: 25px;
+}
+li:hover{
+    color: blue;
+}
+ul{
+
+    height: 60px;
+    position: relative;
+}
+ul>li>ul{
+    display: None;
+}
+
+#l1:hover ul{
+    display: block;
+    position: relative;
+    height:170px;
+    width:180px;
+}
+#l2>ul{
+    display: None;
+}
+
+#l2:hover ul{
+    display: block;
+    position: relative;
+    height:100px;
+    width:150px;
+}

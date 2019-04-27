@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS布局</title>
+    <link rel="stylesheet" href="css布局.css">
+    <style>
+        #d1 > div {
+            height: 38px;
+            width: 100px;
+            border: solid 1px white;
+            background-color: gray;
+        }
+
+        .a1 {
+            height: 50px;
+            text-align: center;
+            color: white;
+        }
+
+        .a2 {
+            height: 50px;
+            text-align: center;
+            color: white;
+        }
+
+        .a3 {
+            height: 50px;
+            text-align: center;
+            color: white;
+        }
+
+        .a4 {
+            height: 50px;
+            text-align: center;
+            color: white;
+        }
+
+        .a5 {
+            height: 50px;
+            text-align: center;
+            color: white;
+        }
+
+        #d1 > div:hover {
+            background-color: #0F94F7;
+        }
+        #d2 > div{
+            height: 38px;
+            width: 100px;
+            border: solid 1px white;
+            background-color: gray;
+            display: inline-block;
+            margin:0;
+            padding:0;
+        }
+        #d2 > div:hover {
+            background-color: #0F94F7;
+        }
+    </style>
+</head>
+<body>
+<div id="d1">
+
+    <div><a class="a1" href="#">首&nbsp&nbsp页</a></div>
+    <div><a class="a2" href="#">新闻快讯</a></div>
+    <div><a class="a3" href="#">产品展示</a></div>
+    <div><a class="a4" href="#">售后服务</a></div>
+    <div><a class="a5" href="#">联系我们</a></div>
+</div>
+<br>
+<hr>
+<br>
+<div id="d2">
+
+    <div><a class="a1" href="#">首&nbsp&nbsp页</a></div>
+    <div><a class="a2" href="#">新闻快讯</a></div>
+    <div><a class="a3" href="#">产品展示</a></div>
+    <div><a class="a4" href="#">售后服务</a></div>
+    <div><a class="a5" href="#">联系我们</a></div>
+</div>
+<br>
+<hr>
+<h1>三级导航栏</h1>
+<hr>
+<div>
+    <ul>
+        <li id="l1">
+            <span>章节</span>
+            <ul>
+                <li id="l2">
+                    <span>python</span>
+                    <ul>
+                        <li>GUI</li>
+                        <li>SOCKET</li>
+                        <li>ASYNC</li>
+                    </ul>
+                </li>
+
+                <li>go</li>
+            </ul>
+        </li>
+
+        <li>问答</li>
+        <li>笔记</li>
+        <li>提问</li>
+
+    </ul>
+</div>
+</body>
+</html>
